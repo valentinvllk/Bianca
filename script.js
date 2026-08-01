@@ -2,7 +2,7 @@ const text = `Bianca,
 
 Știu că uneori cuvintele nu pot repara ceea ce s-a întâmplat.
 
-Totuși, am vrut să îți las acest mic loc în care să îți spun, fără grabă și din inimă...
+Totuși, am vrut să îți las acest mic loc în care să îți spun,
 
 Îmi pare sincer rău.
 
@@ -133,3 +133,10 @@ requestAnimationFrame(animate);
 }
 
 animate();
+const envelope=document.getElementById("envelope");
+
+envelope.addEventListener("click",()=>{
+
+envelope.classList.toggle("open");
+
+});
